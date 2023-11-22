@@ -1,0 +1,42 @@
+* {
+    font-family: 'Englebert', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+.menu {
+    display:grid;
+    justify-content: center;
+}
+
+@media (width >= 992px){
+.columnBig { 
+    width: 33.33%
+}}
+
+@media (768px >= width < 992px) {
+.columnMedium {
+    width: 50%
+}}
+
+@media (width > 768px){
+.columnSmall {
+    width: 100%
+}}
+
+.menu p {
+    height: auto;
+    overflow: scroll;
+    border: 3px, black;
+    padding: 2rem;
+}
+
+.menu h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: 0px, 0px, 3px, 3px;
+    justify-content: right;
+    position: absolute;
+}
